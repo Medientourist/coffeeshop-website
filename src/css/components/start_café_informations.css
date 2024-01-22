@@ -1,0 +1,36 @@
+.start_café {
+    padding: 0 6vh 4vh 4vh;
+}
+
+.start_café_informations p {
+    margin: 2vh 0;
+}
+
+.start_café_informations h2 {
+    margin-top: 6vh;
+}
+
+.start_café_röst {
+    display: flex;
+    margin: 4vh 0;
+    align-items: flex-end;
+}
+
+.start_café_address {
+    display: inline;
+    width: 50%;
+}
+
+.start_café_time {
+    display: inline;
+    width: 50%;
+}
+
+.start_café_room {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start_café_bioandfair p{
+    margin-bottom: 4vh;
+}

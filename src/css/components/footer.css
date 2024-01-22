@@ -1,0 +1,65 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 8vh 4vh;
+    font-size: 1.2em;
+}
+
+/*
+.footer_header {
+
+}
+
+.footer_logo {
+
+}
+*/
+
+.footer_name {
+    margin-top: 4vh;
+    font-size: 2em;
+}
+
+/*
+.footer_name_advanced {
+
+}
+
+.footer_bottom {
+
+}
+*/
+
+.footer_address {
+    display: flex;
+    margin: 4vh 0;
+    align-items: flex-end;
+}
+
+.footer_street {
+    display: inline;
+    width: 50%;
+}
+
+.footer_time {
+    display: inline;
+    width: 50%;
+}
+
+.footer_links {
+    display: flex;
+}
+
+.footer_links a {
+    display: block;
+}
+
+.footer_guideline {
+    display: inline;
+    width: 50%;
+}
+
+.footer_about {
+    display: inline-block;
+    width: 50%;
+}

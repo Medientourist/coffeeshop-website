@@ -1,0 +1,33 @@
+.start_ingredients {
+    text-align: center;
+    padding: 6vh 8vh;
+}
+
+.start_ingredients > img {
+    margin-top: 4vh;
+    height: 40vh;
+}
+
+.start_ingredients_description {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    margin-top: 6vh;
+}
+
+.start_ingredients_cup, .start_ingredients_shovel, .start_ingredients_plant {
+    display: inline;
+    flex-shrink: 1;
+}
+
+.start_ingredients_description p {
+    margin: 2vh 0;
+}
+
+.start_ingredients_to_shop {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 2vh 6vh;
+    border-radius: 8px;
+    margin-top: 6vh;
+}
