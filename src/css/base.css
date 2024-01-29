@@ -4,15 +4,14 @@
 }
 
 body {
-  background: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 14px;
-  font-weight: 400px;
-  letter-spacing: 0%;
-  text-decoration: none;
+  background: var(--div-color-white);
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',;
+  font-size: var(--body-text-font-size-m);
+  font-weight: var(--body-text-font-weight);
+  line-height: var(--body-text-line-height);
 
   @media (min-width: 768px) {
-    color: black;
+    color: var(--div-color-anthrazit);
   }
 }
 
@@ -20,10 +19,10 @@ main {
   margin: 0 auto;
 
   & div {
-    color: black;
+    color: var(--div-color-anthrazit);
 
     @media (min-width: 768px) {
-      color: var(--div-color);
+      
     }
   }
 }
@@ -33,21 +32,20 @@ img {
   height: auto;
 }
 
-h1, h2, h3 {
-  font-weight: 900;
-  letter-spacing: 0%;
-  text-decoration: none;
-}
-
 h1 {
-  font-size: 64px;
+  font-size: var(--h1-font-size-m);
+  font-weight: var(--h1-font-weight);
+  line-height: var(--h1-line-height);
 }
 
 h2 {
-  font-size: var(--h2-font-size);
+  font-size: var(--h2-font-size-m);
+  font-weight: var(--h2-font-weight);
+  line-height: var(--h2-line-height);
 }
 
 h3 {
-  font-size: 32px;
+  font-size: var(--h3-font-size-m);
+  font-weight: var(--h3-font-weight);
+  line-height: var(--h3-line-height);
 }
-

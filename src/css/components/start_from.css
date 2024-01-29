@@ -1,24 +1,31 @@
 .start_from {
     background-image: url("../images/FEND-Coffee-bags-2.png");
-    padding: 12vh 15vh;
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    height: 50vh;
+    min-height: 100px;
+}
+
+.start_from_elements {
+    padding: 6rem 5rem;
 }
 
 .start_from h2 {
-    color: white;
+    color: var(--div-color-white);
 }
 
 .start_from p {
-    color: white;
-    margin-top: 4vh;
+    color: var(--div-color-white);
+    margin-top: 0.5rem;
 }
 
 .start_from_more {
-    margin-top: 2vh;
+    margin-top: 0.5rem;
 }
 
 .start_from a {
-    color: white;
+    color: var(--div-color-white);
     text-decoration: none;
 }
 

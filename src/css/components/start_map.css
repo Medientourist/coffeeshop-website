@@ -14,7 +14,8 @@
 }
 */
 
-.start_map_card img {
+.start_map_card iframe {
     width: 100%;
     height: auto;
+    min-height: 231px;
 }

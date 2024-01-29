@@ -1,8 +1,7 @@
 .footer {
     background-color: black;
-    color: white;
-    padding: 8vh 4vh;
-    font-size: 1.2em;
+    color: var(--div-color-white);
+    padding: 4rem 1.4rem 4rem 1.4rem;
 }
 
 /*
@@ -16,24 +15,23 @@
 */
 
 .footer_name {
-    margin-top: 4vh;
-    font-size: 2em;
+    margin-top: 2rem;
 }
 
-/*
-.footer_name_advanced {
 
+.footer_name_advanced {
+    font-size: 1.3rem;
 }
 
 .footer_bottom {
 
 }
-*/
 
 .footer_address {
     display: flex;
-    margin: 4vh 0;
+    margin: 2rem 0;
     align-items: flex-end;
+    justify-content: space-around;
 }
 
 .footer_street {

@@ -1,7 +1,32 @@
 :root {
   /* Colors */
-  --div-color: black;
+  --div-color-white: rgba(255,255,255,1);
+  --div-color-anthrazit: rgba(26,26,26,1);
+  --div-color-kraftpapier: rgba(215,190,157,1);
+  --div-color-petrol: rgba(0,109,126,1);
+  --div-color-rosa: rgba(237,209,201,1);
+  --div-color-orange: rgba(215,124,18,1);
+  --div-color-medium-grey: rgba(115,115,115,1);
+  --div-color-light-grey: rgba(233,233,233,1);
 
   /* Text Styles */
-  --h2-font-size: 36px;
+  --h1-font-size-m: 64px;
+  --h2-font-size-m: 36px;
+  --h3-font-size-m: 32px;
+  --body-text-font-size-m: 14px;
+
+  --h1-font-size-d: 96px;
+  --h2-font-size-d: 48px;
+  --h3-font-size-d: 42px;
+  --body-text-font-size-d: 18px;
+
+  --h1-font-weight: 900;
+  --h2-font-weight: 900;
+  --h3-font-weight: 900;
+  --body-text-font-weight: 400;
+
+  --h1-line-height: 1.1;
+  --h2-line-height: 1.1;
+  --h3-line-height: 1.1;
+  --body-text-line-height: 1.3;
 }

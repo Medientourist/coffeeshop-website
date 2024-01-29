@@ -1,18 +1,19 @@
 .start_café {
-    padding: 0 6vh 4vh 4vh;
+    padding: 0 1.4rem 4rem 1.4rem;
 }
 
 .start_café_informations p {
-    margin: 2vh 0;
+    
 }
 
 .start_café_informations h2 {
-    margin-top: 6vh;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .start_café_röst {
+    margin: 1rem 0 2rem 0;
     display: flex;
-    margin: 4vh 0;
     align-items: flex-end;
 }
 
@@ -32,5 +33,5 @@
 }
 
 .start_café_bioandfair p{
-    margin-bottom: 4vh;
+    margin-bottom: 2rem;
 }

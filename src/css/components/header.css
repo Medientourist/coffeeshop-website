@@ -1,5 +1,9 @@
 .hero_header {
+    background-color: var(--div-color-anthrazit);
     background-image: url("../images/FEND-Coffee-latte-art-3.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
     height: 75vh;
 }
 
@@ -26,18 +30,21 @@
 .hero_title {
     position: absolute;
     width: 100%;
-    top: 25vh;
-    color: white;   
+    top: 28vh;
+    color: var(--div-color-white);   
     text-align: center;
 }
 
+/*
 .hero_title h1{
-    font-size: 6em;
+    
 }
+*/
 
 .hero_title p {
-    font-size: 1.5em;
+    font-size: 1.286rem;
 }
+
 
 .hero_shop {
     position: absolute;
@@ -47,9 +54,9 @@
 }
 
 .hero_to_shop {
-    background-color: #1A1A1A;
-    border: 2px solid #1A1A1A;
-    color: white;
+    background-color: var(--div-color-anthrazit);
+    border: 2px solid var(--div-color-anthrazit);
+    color: var(--div-color-white);
     padding: 15px 50px;
     border-radius: 5px;
     font-weight: 400;
