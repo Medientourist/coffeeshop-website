@@ -49,6 +49,15 @@
     border: 4px solid var(--div-color-white);
     color: var(--div-color-white);
     border-radius: 8px;
-    background-color: var(--div-color-anthrazit);
-    padding: 2vh 8vh;
+    padding: 0.938rem 3.125rem;
+    background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    
 }
+ 
+.preview_shop_go_to:hover {
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
+}
+

@@ -22,15 +22,19 @@
     justify-content: space-between;
 }
 
+.hero_menu {
+    object-fit:contain;
+}
+
 .hero_logo, .hero_menu {
     box-sizing: content-box;
-    padding: 4vh;
+    padding: 0.625rem 1.5rem;
 }
   
 .hero_title {
     position: absolute;
     width: 100%;
-    top: 28vh;
+    top: 30vh;
     color: var(--div-color-white);   
     text-align: center;
 }
@@ -42,7 +46,7 @@
 */
 
 .hero_title p {
-    font-size: 1.286rem;
+    font-size: 1.125rem;
 }
 
 
@@ -57,17 +61,22 @@
     background-color: var(--div-color-anthrazit);
     border: 2px solid var(--div-color-anthrazit);
     color: var(--div-color-white);
-    padding: 15px 50px;
+    padding: 0.938rem 3.125rem;
     border-radius: 5px;
-    font-weight: 400;
+
+    background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    
 }
-  
+ 
 .hero_to_shop:hover {
-    transition-duration: 2s;
-    background-color: #3A3734;
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
 }
 
+
 .hero_to_shop:active {
-    transition-duration: 2s;
-    background-color: #D7BE9D;
+    transition: all 0.5s ease-out;
 }
+
