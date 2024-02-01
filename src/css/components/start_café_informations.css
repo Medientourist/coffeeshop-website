@@ -1,21 +1,28 @@
 .start_café {
-    padding: 0 1.4rem 4rem 1.4rem;
+    padding: 3.75rem 1.5rem;
 }
+
+.start_café h2 {
+    margin-bottom: 1rem;
+}
+
 /*
 .start_café_informations p {
     
 }
 */
-
+/*
 .start_café_informations h2 {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+
 }
+*/
 
 .start_café_röst {
-    margin: 1rem 0 2rem 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: flex-end;
+    gap: 1rem;
 }
 
 .start_café_address {
@@ -32,6 +39,11 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.start_café_bioandfair {
+    margin-top: 2.5rem;
+}
+
 
 .start_café_bioandfair p{
     margin-bottom: 2rem;

@@ -3,7 +3,6 @@
     background-image: url("../images/FEND-Coffee-latte-art-3.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: overlay;
     height: 75vh;
 }
 
@@ -52,7 +51,7 @@
 
 .hero_shop {
     position: absolute;
-    top: 60vh;
+    top: 58vh;
     width: 100%;
     text-align: center;
 }
