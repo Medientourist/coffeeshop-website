@@ -1,7 +1,7 @@
 .footer {
     background-color: black;
     color: var(--div-color-white);
-    padding: 4rem 1.4rem 4rem 1.4rem;
+    padding: 3.75rem 1.5rem 3.125rem 1.5rem;
 }
 
 /*
@@ -15,12 +15,13 @@
 */
 
 .footer_name {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: 1.75rem;
 }
 
 
 .footer_name_advanced {
-    font-size: 1.3rem;
+    font-size: 1.125rem;
 }
 
 /*
@@ -30,10 +31,10 @@
 */
 
 .footer_address {
+    margin: 2.125rem 0;
     display: flex;
-    margin: 2rem 0;
     align-items: flex-end;
-    justify-content: space-around;
+    gap: 1rem;
 }
 
 .footer_street {
@@ -48,6 +49,7 @@
 
 .footer_links {
     display: flex;
+    gap: 1rem;
 }
 
 .footer_links a {
