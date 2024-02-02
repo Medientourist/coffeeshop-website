@@ -1,13 +1,13 @@
 .preview {
     background-color: var(--div-color-anthrazit);
     color: var(--div-color-white);
-    padding: 3rem 1.4rem 2rem 1.4rem;
+    padding: 3.75rem 2rem 3.75rem 0.875rem;
 }
 
 .preview_section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .preview_product {
@@ -41,7 +41,7 @@
 }
 
 .preview_shop {
-    padding: 4vh;
+    margin-top: 2rem;
     text-align: center;
 }
 
