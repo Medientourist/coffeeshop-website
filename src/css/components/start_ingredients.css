@@ -1,10 +1,10 @@
 .start_ingredients {
     text-align: center;
-    padding: 3rem 2.7rem;
+    padding: 3.75rem 1.5rem;
 }
 
 .start_ingredients > img {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     min-height: 40vh;
 }
 
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     box-sizing: content-box;
-    margin-top: 3rem;
+    margin-top: 2.75rem;
 }
 
 .start_ingredients_cup, .start_ingredients_shovel, .start_ingredients_plant {
@@ -29,7 +29,7 @@
     color: var(--div-color-white);
     padding: 0.938rem 3.125rem;
     border-radius: 8px;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
     background-size: 200% 100%;
     background-position: right bottom;

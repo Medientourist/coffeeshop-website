@@ -1,7 +1,7 @@
 .preview {
     background-color: var(--div-color-anthrazit);
     color: var(--div-color-white);
-    padding: 3.75rem 2rem 3.75rem 0.875rem;
+    padding: 3.75rem 1.5rem;
 }
 
 .preview_section {
