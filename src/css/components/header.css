@@ -29,7 +29,7 @@
     object-fit:contain;
 }
 
-.hero_logo, .hero_menu {
+.hero_logo, .hero_menu_m {
     box-sizing: content-box;
     padding: 0.625rem 1.5rem;
 }
@@ -102,6 +102,12 @@ Extra large devices (large desktops, 1200px and up)
     }
 
     .hero_menu_d {
-        display: block;
+        display: flex;
+    }
+
+    .hero_menu_d a {
+        color: var(--div-color-white);
+        box-sizing: content-box;
+        padding: 0.625rem 1.5rem;
     }
 }
