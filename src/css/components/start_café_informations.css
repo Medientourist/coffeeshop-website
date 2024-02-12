@@ -21,27 +21,31 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap;
     gap: 1rem;
+    justify-content: flex-end;
 }
 
 .start_café_address {
     display: inline;
-    width: 50%;
+    width: 47.5%;
 }
 
 .start_café_time {
     display: inline;
-    width: 50%;
+    width: 47.5%;
 }
 
 .start_café_room {
-    display: flex;
-    justify-content: flex-end;
+    height: auto;
+    width: auto;
 }
 
 .start_café_bioandfair {
     margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 
