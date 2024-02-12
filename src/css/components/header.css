@@ -3,6 +3,7 @@
     background-image: url("../images/FEND-Coffee-latte-art-3.png");
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
     height: 75vh;
 }
 
@@ -68,7 +69,7 @@
     border-radius: 5px;
 
     background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
-    background-size: 200% 100%;
+    background-size: 300% 100%;
     background-position: right bottom;
     
 }
