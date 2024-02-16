@@ -1,6 +1,6 @@
 .hero_header {
     background-color: var(--div-color-anthrazit);
-    background-image: url("../images/FEND-Coffee-latte-art-3.png");
+    background-image: url("/images/FEND-Coffee-latte-art-3.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -22,23 +22,15 @@
     justify-content: space-between;
 }
 
-.hero_menu_d {
-    display: none;
-}
-
-.hero_menu {
-    object-fit:contain;
-}
-
-.hero_logo, .hero_menu_m {
+.hero_logo, .hero_menu {
     box-sizing: content-box;
-    padding: 0.625rem 1.5rem;
+    padding: 4vh;
 }
   
 .hero_title {
     position: absolute;
     width: 100%;
-    top: 30vh;
+    top: 28vh;
     color: var(--div-color-white);   
     text-align: center;
 }
@@ -50,13 +42,13 @@
 */
 
 .hero_title p {
-    font-size: 1.125rem;
+    font-size: 1.286rem;
 }
 
 
 .hero_shop {
     position: absolute;
-    top: 58vh;
+    top: 60vh;
     width: 100%;
     text-align: center;
 }
@@ -65,50 +57,8 @@
     background-color: var(--div-color-anthrazit);
     border: 2px solid var(--div-color-anthrazit);
     color: var(--div-color-white);
-    padding: 0.938rem 3.125rem;
+    padding: 15px 50px;
     border-radius: 5px;
-
-    background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
-    background-size: 300% 100%;
-    background-position: right bottom;
-    
+    font-weight: 400;
 }
- 
-.hero_to_shop:hover {
-    background-position: left bottom;
-    transition: all 0.5s ease-out;
-}
-
-
-.hero_to_shop:active {
-    transition: all 0.5s ease-out;
-}
-
-/* Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-
-/* Very large desktop devices (1920px and up) */
-@media (min-width: 1920px) {
-    .hero_menu_m {
-        display: none;
-    }
-
-    .hero_menu_d {
-        display: flex;
-    }
-
-    .hero_menu_d a {
-        color: var(--div-color-white);
-        box-sizing: content-box;
-        padding: 0.625rem 1.5rem;
-    }
-}
+  
