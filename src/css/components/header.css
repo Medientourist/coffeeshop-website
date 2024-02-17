@@ -1,67 +1,71 @@
-.hero_header {
-    background-color: var(--div-color-anthrazit);
-    background-image: url("/images/FEND-Coffee-latte-art-3.png");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-    height: 75vh;
-}
-
-.hero {
-    position: relative;
-  }
-
-.hero_top {
-    position: absolute;
-    width: 100%;
-}
-
-.hero_bar {
+.header {
     display: flex;
-    width: 100%;
+    position: fixed;
     justify-content: space-between;
+    width: 100%;
+    z-index: 2;
 }
 
-.hero_logo, .hero_menu {
-    box-sizing: content-box;
-    padding: 4vh;
+.header a{
+    color: white;
 }
-  
-.hero_title {
-    position: absolute;
-    width: 100%;
-    top: 28vh;
-    color: var(--div-color-white);   
-    text-align: center;
+
+.header_logo, .header_navigation {
+    box-sizing: content-box;
+}
+
+.header_navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo, .header_menu_m, .header_menu_d {
+    padding: 0.625rem 1.5rem;
+}
+
+.header_menu_m {
+    display: flex;
+    align-items: center;
+}
+
+.header_menu_d {
+    display: none;
+    /*
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    */
+}
+
+.header_menu_café, .header_menu_from, .header_menu_shop {
+    box-sizing: content-box;
+}
+
+@media (min-width: 1200px) {
+    .header_menu_m {
+        display: none;
+    }
+    
+    .header_menu_d {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }    
 }
 
 /*
-.hero_title h1{
-    
-}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Very large desktop devices (1920px and up)
+@media (min-width: 1920px) { ... }
 */
-
-.hero_title p {
-    font-size: 1.286rem;
-}
-
-
-.hero_shop {
-    position: absolute;
-    top: 60vh;
-    width: 100%;
-    text-align: center;
-}
-
-.hero_to_shop {
-    background-color: var(--div-color-anthrazit);
-    border: 2px solid var(--div-color-anthrazit);
-    color: var(--div-color-white);
-    padding: 15px 50px;
-    border-radius: 5px;
-    font-weight: 400;
-}
-  
-.hero_menu_d {
-    display: none;
-}
