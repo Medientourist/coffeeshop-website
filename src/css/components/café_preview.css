@@ -61,3 +61,11 @@
     transition: all 0.5s ease-out;
 }
 
+.preview_shop_go_to:active {
+    background: linear-gradient(to right, var(--div-color-white) 50%, #3A3734 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    transition-delay: 500ms;
+}
+
