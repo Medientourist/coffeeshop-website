@@ -1,0 +1,21 @@
+/*
+.map {
+
+}
+*/
+
+.map h2 {
+    margin: 0.75rem 0 2.188rem 1.5rem;
+}
+
+/*
+.map_card {
+    
+}
+*/
+
+.map_card iframe {
+    width: 100%;
+    height: auto;
+    min-height: 231px;
+}
