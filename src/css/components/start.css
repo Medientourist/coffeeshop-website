@@ -1,0 +1,263 @@
+.start_introduction {
+    background-color: var(--div-color-anthrazit);
+    background-image: url("/images/FEND-Coffee-latte-art-3.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 75vh;
+}
+
+.start_introduction {
+    position: relative;
+  }
+  
+.start_introduction_title {
+    position: absolute;
+    width: 100%;
+    top: 28vh;
+    color: var(--div-color-white);   
+    text-align: center;
+}
+
+/*
+.start_introduction_title h1{
+    
+}
+*/
+
+.start_introduction_title p {
+    font-size: 1.286rem;
+}
+
+
+.start_introduction_shop {
+    position: absolute;
+    top: 60vh;
+    width: 100%;
+    text-align: center;
+}
+
+.start_introduction_to_shop {
+    background-color: var(--div-color-anthrazit);
+    border: 2px solid var(--div-color-anthrazit);
+    color: var(--div-color-white);
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+
+.start_café {
+    padding: 3.75rem 1.5rem;
+}
+
+.start_café h2 {
+    margin-bottom: 1rem;
+}
+
+/*
+.start_café_informations p {
+    
+}
+*/
+/*
+.start_café_informations h2 {
+
+}
+*/
+
+.start_café_röst {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.start_café_address {
+    display: inline;
+    width: 47.5%;
+}
+
+.start_café_time {
+    display: inline;
+    width: 47.5%;
+}
+
+.start_café_room {
+    height: auto;
+    width: auto;
+}
+
+.start_café_bioandfair {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+
+.start_café_bioandfair p{
+    margin-bottom: 2rem;
+}
+
+
+
+.start_preview {
+    background-color: var(--div-color-anthrazit);
+    color: var(--div-color-white);
+    padding: 3.75rem 1.5rem;
+}
+
+.start_preview_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.start_preview_product {
+    display: inline;
+    max-width: 50%;
+    margin-top: 2rem;
+}
+
+/*
+.start_preview_product_description {
+    
+}
+*/
+
+.start_preview_product_description img {
+    background-color: var(--div-color-white);
+}
+
+.start_preview_product_name {
+    color: var(--div-color-white);
+    margin-top: 0.5rem;
+}
+
+.start_preview_product_price {
+    color: var(--div-color-medium-grey);
+    
+}
+
+.start_preview_product_icons {
+    margin-top: 2%;
+}
+
+.start_preview_shop {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.start_preview_shop_go_to {
+    border: 4px solid var(--div-color-white);
+    color: var(--div-color-white);
+    border-radius: 8px;
+    padding: 0.938rem 3.125rem;
+    background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    
+}
+ 
+.start_preview_shop_go_to:hover {
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
+}
+
+.start_preview_shop_go_to:active {
+    background: linear-gradient(to right, var(--div-color-white) 50%, #3A3734 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    transition-delay: 500ms;
+}
+
+
+
+
+.start_from {
+    background-image: url("../images/FEND-Coffee-bags-2.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 50vh;
+    min-height: 100px;
+}
+
+.start_from_elements {
+    padding: 5rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.start_from h2 {
+    color: var(--div-color-white);
+    width: 100%;
+}
+
+.start_from p {
+    color: var(--div-color-white);
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.start_from_more {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.start_from a {
+    color: var(--div-color-white);
+    text-decoration: none;
+}
+
+
+
+.start_ingredients {
+    text-align: center;
+    padding: 3.75rem 1.5rem;
+}
+
+.start_ingredients > img {
+    margin-top: 1.5rem;
+    min-height: 40vh;
+}
+
+.start_ingredients_description {
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    margin-top: 2.75rem;
+    gap: 2rem;
+}
+
+.start_ingredients_cup, .start_ingredients_shovel, .start_ingredients_plant {
+    display: inline;
+    flex-shrink: 1;
+}
+
+.start_ingredients_description p {
+    margin: 1rem 0;
+}
+
+.start_ingredients_to_shop {
+    background-color: var(--div-color-anthrazit);
+    color: var(--div-color-white);
+    padding: 0.938rem 3.125rem;
+    border-radius: 8px;
+    margin-top: 2.5rem;
+    background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+ 
+.start_ingredients_to_shop:hover {
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
+}

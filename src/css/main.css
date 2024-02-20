@@ -2,13 +2,10 @@
 @import "base.css";
 @import "components/header.css";
 @import "components/header_b.css";
-@import "components/start_introduction.css";
-@import "components/start_café_informations.css";
-@import "components/café_preview.css";
-@import "components/start_from.css";
-@import "components/start_ingredients.css";
+@import "components/start.css";
 @import "components/start_map.css";
 @import "components/café.css";
 @import "components/from.css";
 @import "components/contact.css";
 @import "components/footer.css";
+
