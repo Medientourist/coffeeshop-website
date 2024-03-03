@@ -1,3 +1,30 @@
-.impresum {
+.impressum_main {
+    padding: 6rem 1.5rem;
     color: black;
 }
+
+.impressum_main h2{
+    margin-bottom: 1.5rem;
+}
+
+.impressum_adress p:first-of-type {
+    margin-top: 1rem;
+}
+
+.impressum_adress p:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.impressum_main p:last-of-type:not(.impressum_adress p){
+    margin-bottom: 2rem;
+}
+
+.impressum_main ul {
+    padding-left: 1rem;
+    
+}
+
+.impressum_main li {
+    margin: 1rem 0;
+}
+
