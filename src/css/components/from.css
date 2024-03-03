@@ -4,3 +4,45 @@
     background-position: center;
     height: 50vh;
 }
+
+.from_body {
+    padding: 3rem 1.5rem 0;
+}
+
+.from_body section {
+    margin-bottom: 3rem;
+}
+
+.from_body section h2 {
+    margin-bottom: 1rem;
+}
+
+.from_body section p {
+    margin-bottom: 2rem;
+}
+
+.from_rustica {
+    padding-right: 5rem;
+}
+
+
+/* .from_growing_area {
+
+} */
+
+.from_growing_area_zone {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+/* .from_growing_area_zone_text {
+
+} */
+
+.from_growing_area_zone_picture {
+    margin-top: 1.5rem;
+    height: auto;
+    width: auto;
+}
