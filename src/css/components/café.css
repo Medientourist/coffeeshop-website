@@ -4,3 +4,57 @@
     background-position: center;
     height: 50vh;
 }
+
+.café_description {
+    padding: 0 1.5rem;
+    margin: 3.75rem 0;
+}
+
+.café_description h2 {
+    margin-bottom: 1rem;
+}
+
+/*
+.café_informations p {
+    
+}
+*/
+/*
+.café_informations h2 {
+
+}
+*/
+
+.café_röst {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.café_address {
+    display: inline;
+    width: 47.5%;
+}
+
+.café_time {
+    display: inline;
+    width: 47.5%;
+}
+
+.café_room {
+    margin-top: 1.5rem;
+    height: auto;
+    width: auto;
+}
+
+.café_story {
+    padding: 0 1.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.café_story h2 {
+    margin-bottom: 1rem;
+}
