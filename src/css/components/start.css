@@ -2,7 +2,7 @@
     position: relative;
     height: 75vh;
     overflow: hidden; /* Um Überlauf zu verhindern */
-    background: url("../images/FEND-Coffee-latte-art-3.png") center/cover no-repeat; /* Hintergrundbild einfügen */
+    background: url("../images/pictures/FEND-Coffee-latte-art-3.png") center/cover no-repeat; /* Hintergrundbild einfügen */
 }
 
 .start_introduction::before {
@@ -105,7 +105,7 @@
 
 
 .start_from {
-    background-image: url("../images/FEND-Coffee-bags-2.png");
+    background-image: url("../images/pictures/FEND-Coffee-bags-2.png");
     background-size: cover;
     background-position: center;
     text-align: center;
