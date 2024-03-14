@@ -33,17 +33,44 @@
     top: 60vh;
     width: 100%;
     text-align: center;
-    z-index: 2; /* Stelle sicher, dass der Shop-Teil über dem Overlay liegt */
+    z-index: 2;
 }
 
+
+
 .start_introduction_to_shop {
+    position: relative;
     background-color: var(--div-color-anthrazit);
     border: 2px solid var(--div-color-anthrazit);
     color: var(--div-color-white);
     padding: 15px 50px;
     border-radius: 5px;
     font-weight: 400;
+    overflow: hidden; /* Verhindert das Überlappen des Hintergrundverlaufs */
 }
+
+.start_introduction_to_shop::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 215, 0, 0), rgba(255, 215, 0, 1)); /* Hintergrundverlauf von transparent zu Gold */
+    transition: width 0.3s; /* Übergangseffekt für die Breite */
+}
+
+.start_introduction_to_shop:hover::before {
+    width: 100%; /* Breite des Hintergrundverlaufs auf 100% ändern, wenn über das Element gehoverd wird */
+}
+
+.start_introduction_to_shop:active::before {
+    width: 100%; /* Breite des Hintergrundverlaufs auf 100% ändern, wenn das Element aktiv ist (bei Klick) */
+}
+
+
+
+
 
 
 
