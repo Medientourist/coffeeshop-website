@@ -1,9 +1,9 @@
 .start_introduction {
     position: relative;
     height: 75vh;
-    overflow: hidden; /* Um Überlauf zu verhindern */
-    background: url("../images/pictures/FEND-Coffee-latte-art-3.png") center/cover no-repeat; /* Hintergrundbild einfügen */
+    background: url("../images/pictures/FEND-Coffee-latte-art-3.png") center/cover no-repeat;
 }
+
 
 .start_introduction::before {
     content: "";
@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Ändere die Farbe und die Transparenz nach Bedarf */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .start_introduction_title {
@@ -21,7 +21,7 @@
     top: 28vh;
     color: var(--div-color-white);   
     text-align: center;
-    z-index: 2; /* Stelle sicher, dass der Text über dem Overlay liegt */
+    z-index: 2;
 }
 
 .start_introduction_title p {
@@ -38,41 +38,55 @@
 
 
 
-.start_introduction_to_shop {
+.start_introduction_to_shop, .start_ingredients_to_shop {
     position: relative;
-    background-color: var(--div-color-anthrazit);
-    border: 2px solid var(--div-color-anthrazit);
     color: var(--div-color-white);
     padding: 15px 50px;
+    border-style: none;
     border-radius: 5px;
     font-weight: 400;
-    overflow: hidden; /* Verhindert das Überlappen des Hintergrundverlaufs */
+    background-color: transparent;
+
 }
 
-.start_introduction_to_shop::before {
+.start_introduction_to_shop::before, .start_ingredients_to_shop::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
+    top:0;
+    left:0;
+    width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(255, 215, 0, 0), rgba(255, 215, 0, 1)); /* Hintergrundverlauf von transparent zu Gold */
-    transition: width 0.3s; /* Übergangseffekt für die Breite */
+    border-radius: 5px;
+    border-style: none;
+    z-index: -2;
+    background-image: linear-gradient(90deg, var(--div-color-anthrazit) 0%, var(--div-color-anthrazit) 50%, #3A3734 50%);
+    background-size: 220%;
+    transition: background-position .8s;
 }
 
-.start_introduction_to_shop:hover::before {
-    width: 100%; /* Breite des Hintergrundverlaufs auf 100% ändern, wenn über das Element gehoverd wird */
+.start_introduction_to_shop::after, .start_ingredients_to_shop::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-style: none;
+    z-index: -3;
+    background-image: linear-gradient(90deg, #3A3734 0%, #3A3734 50%, var(--div-color-kraftpapier) 50%);
+    background-size: 220%;
+    transition: background-position .8s;
 }
 
-.start_introduction_to_shop:active::before {
-    width: 100%; /* Breite des Hintergrundverlaufs auf 100% ändern, wenn das Element aktiv ist (bei Klick) */
+.start_introduction_to_shop:hover::before, .start_ingredients_to_shop.start_ingredients_to_shop:hover::before {
+    background-position: -90%;
 }
 
-
-
-
-
-
+.start_introduction_to_shop:active::after, .start_ingredients_to_shop:active::after {
+    z-index: -1;
+    background-position: -90%;
+}
 
 .start_café {
     padding: 3.75rem 1.5rem;
@@ -81,6 +95,8 @@
 .start_café h2 {
     margin-bottom: 1rem;
 }
+
+
 
 /*
 .start_café_informations p {
@@ -198,20 +214,4 @@
 
 .start_ingredients_description p {
     margin: 1rem 0;
-}
-
-.start_ingredients_to_shop {
-    background-color: var(--div-color-anthrazit);
-    color: var(--div-color-white);
-    padding: 0.938rem 3.125rem;
-    border-radius: 8px;
-    margin-top: 2.5rem;
-    background: linear-gradient(to right, #3A3734 50%, var(--div-color-anthrazit) 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-}
- 
-.start_ingredients_to_shop:hover {
-    background-position: left bottom;
-    transition: all 0.5s ease-out;
 }
