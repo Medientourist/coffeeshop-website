@@ -4,6 +4,7 @@
     justify-content: space-between;
     width: 100%;
     z-index: 3;
+    background-color: black;
 }
 
 .header a{
@@ -91,6 +92,16 @@
     box-sizing: content-box;
 }
 
+.header_menu_m_navigation:checked ~ .navigation_background {
+    display: block;
+    transform: scale(80);
+}
+
+.header_menu_m_navigation:checked ~ .navigation_nav {
+    opacity: 1;
+    width: 100%;
+}
+
 @media (min-width: 1200px) {
     .header_menu_m {
         display: none;
@@ -103,15 +114,6 @@
     }    
 }
 
-.header_menu_m_navigation:checked ~ .navigation_background {
-    display: block;
-    transform: scale(80);
-}
-
-.header_menu_m_navigation:checked ~ .navigation_nav {
-    opacity: 1;
-    width: 100%;
-}
 
 /*
 // Small devices (landscape phones, 576px and up)

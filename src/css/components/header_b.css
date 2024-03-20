@@ -3,7 +3,7 @@
     position: fixed;
     justify-content: space-between;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     background-color: white;
 }
 
@@ -11,22 +11,79 @@
     color: black;
 }
 
-.header_logo_b, .header_navigation_b {
+.header_logo_b_link, .header_logo_b {
     box-sizing: content-box;
+    z-index: 100;
 }
 
-.header_navigation_b {
-    display: flex;
-    align-items: center;
+.header_logo_w {
+    position: absolute;
+    z-index: 50;
+    top: 0.625rem;
+    left: 1.5rem;
 }
 
-.header_logo_b, .header_menu_b_m, .header_menu_b_d {
+.header_logo, .header_menu_b_m, .header_menu_b_d {
     padding: 0.625rem 1.5rem;
 }
 
 .header_menu_b_m {
     display: flex;
     align-items: center;
+}
+
+.header_menu_b_m_navigation {
+    display: none;
+}
+
+.header_menu_b_m_button {
+    z-index: 10;
+}
+
+.navigation_background {
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 5;
+    transition: display 0s;
+    transition: transform .8s;
+}
+
+.navigation_nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 8;
+
+    opacity: 0;
+    width: 0;
+    transform: all .8s;
+}
+
+.navigation_list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    list-style: none;
+    text-align: center;
+    z-index: 10;
+}
+
+/*
+.navigation_item {
+
+}
+*/
+
+.navigation_link {
+    font-size: 2rem;
 }
 
 .header_menu_b_d {
@@ -36,6 +93,58 @@
     align-items: center;
     gap: 2rem;
     */
+}
+
+.header_menu_café, .header_menu_from, .header_menu_shop {
+    box-sizing: content-box;
+}
+
+.header_menu_b_m_navigation:checked ~ .navigation_background {
+    display: block;
+    transform: scale(80);
+}
+
+.header_menu_b_m_navigation:checked ~ .navigation_nav {
+    opacity: 1;
+    width: 100%;
+}
+
+.header_navigation_b {
+    display: flex;
+    align-items: center;
+}
+
+.header_menu_b_m .navigation_nav a{
+    color: white;
+}
+
+.header_menu_b_m label {
+    z-index: 100;
+}
+
+.header_menu_symbol_navigation {
+    position: absolute;
+    z-index: 50;
+}
+
+.header_logo_b {
+    z-index: 50;
+}
+
+.header_menu_b_m_navigation:checked ~ .header_menu_b_m label {
+    display: none;
+}
+
+.header_menu_b_m {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.header_menu_b_d {
+    display: none;
 }
 
 .header_menu_café_b, .header_menu_from_b, .header_menu_shop_b {
